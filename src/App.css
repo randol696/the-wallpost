@@ -1,0 +1,101 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #745d82;
+}
+h1{
+    text-align: center;
+}
+.form{
+    background-color: rgb(242, 241, 240);
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px;    
+    box-shadow: 0 0 10px rgba(0,0,0,.1) inset;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+input[type=text]{
+    width: 20%;
+    height:40px;
+    border: none;
+    text-align: center;
+}
+textarea{
+    width: 50%;
+    height:40px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(235, 241, 236);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;    
+    box-shadow: 3px 6px 10px rgba(0,0,0,.25); 
+}
+.postwall{
+    
+    display:block;
+    overflow-y:auto;
+    height: 500px;
+   
+    background-color: #fffffa;
+    border-radius: 3px;   
+    width: 95%;
+    margin: 25px auto;
+    padding: 10px;
+  
+}
+.userNamePost{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ 
+}
+.message{
+   
+    background-color: #e4e4e4a3;
+    color:#241d1d;
+    padding: 10px;
+   
+    border-radius: 0 15px;
+    }
+.postMessage{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/*.userMessagePost{
+    
+    width: 50%;
+    border: 1px solid rgb(245, 245, 245);
+    font-size: 14px;
+    font-weight:lighter;
+    border-radius: 5px;
+    text-align: left;
+    text-align: justify;
+   
+} */
+button{
+    background-color: #745d82;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 100px;
+    height: 100%;
+    border-radius: 3px;
+    padding: 10px;
+}
+p{
+    padding-left: 15px;
+}
