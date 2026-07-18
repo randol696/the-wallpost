@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="roundedSquare">
+      <rect x="0" y="0" width="64" height="64" rx="14" ry="14" />
+    </clipPath>
+    <pattern id="brickPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="8" x2="16" y2="8" stroke="#3d3148" stroke-opacity="0.55" stroke-width="0.6" />
+      <line x1="8" y1="0" x2="8" y2="8" stroke="#3d3148" stroke-opacity="0.55" stroke-width="0.6" />
+      <line x1="0" y1="16" x2="16" y2="16" stroke="#3d3148" stroke-opacity="0.55" stroke-width="0.6" />
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="38%" r="75%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.22" />
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#roundedSquare)">
+    <rect x="0" y="0" width="64" height="64" fill="#5b4a68" />
+    <rect x="0" y="0" width="64" height="64" fill="url(#brickPattern)" />
+    <rect x="0" y="0" width="64" height="64" fill="url(#vignette)" />
+  </g>
+
+  <g transform="rotate(-4 30 33)">
+    <rect x="16.6" y="18.2" width="30" height="34" rx="2" fill="#241d1d" opacity="0.28" />
+    <path d="M15 16 H41 L45 20 V50 H15 Z" fill="#fffffa" />
+    <path d="M41 16 L45 20 L41 20 Z" fill="#e7e1d2" />
+    <rect x="20" y="27" width="16" height="1.7" rx="0.85" fill="#241d1d" opacity="0.5" />
+    <rect x="20" y="32.4" width="20" height="1.7" rx="0.85" fill="#241d1d" opacity="0.38" />
+    <rect x="20" y="37.8" width="12" height="1.7" rx="0.85" fill="#241d1d" opacity="0.38" />
+    <ellipse cx="30" cy="17.7" rx="2.6" ry="1" fill="#241d1d" opacity="0.22" />
+    <circle cx="30" cy="16.4" r="2.7" fill="#c1554a" />
+    <circle cx="30" cy="16.4" r="2.7" fill="none" stroke="#8f382f" stroke-width="0.5" />
+    <circle cx="29" cy="15.4" r="0.85" fill="#e8a79e" />
+  </g>
+</svg>
