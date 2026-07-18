@@ -1,5 +1,7 @@
 # The Wallpost
 
+![The Wallpost](public/banner.svg)
+
 A minimal, anonymous message wall built with React and Firebase. Post a message under a nickname, browse what others have posted in real time order, and delete your own posts — all backed by Firestore with security rules enforced server-side.
 
 ## Features
@@ -145,6 +147,13 @@ Every push and pull request against `main` runs through [`.github/workflows/ci.y
 2. Make your changes, adding or updating tests where relevant.
 3. Ensure `npm run lint`, `npm run test`, and `npm run build` all pass.
 4. Open a pull request describing the change.
+
+## Contributors
+
+| Name | Role |
+| --- | --- |
+| [Randol Gonzalez](https://github.com/randol696) | Maintainer |
+| AI Assistant (Anthropic Claude) | AI pair programmer — assisted with implementation via [Claude Code](https://claude.com/claude-code) |
 
 ## License
 
