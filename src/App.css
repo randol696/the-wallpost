@@ -74,17 +74,6 @@ textarea{
     padding: 10px;
 }
 
-/*.userMessagePost{
-    
-    width: 50%;
-    border: 1px solid rgb(245, 245, 245);
-    font-size: 14px;
-    font-weight:lighter;
-    border-radius: 5px;
-    text-align: left;
-    text-align: justify;
-   
-} */
 button{
     background-color: #745d82;
     border: none;
@@ -96,6 +85,60 @@ button{
     border-radius: 3px;
     padding: 10px;
 }
+button:disabled{
+    background-color: #bcb0c4;
+    cursor: not-allowed;
+}
 p{
     padding-left: 15px;
+}
+.postTime{
+    display: block;
+    font-size: 11px;
+    color: #767676;
+    margin: 0 10px;
+}
+.pending{
+    opacity: 0.6;
+}
+.emptyState{
+    text-align: center;
+    color: #767676;
+    padding: 40px 10px;
+}
+.loadingState{
+    text-align: center;
+    color: #767676;
+}
+.formError{
+    color: #a3243b;
+    text-align: center;
+    padding-left: 0;
+}
+.loadMoreButton{
+    display: block;
+    margin: 10px auto;
+    max-width: none;
+}
+
+@media (max-width: 700px){
+    .container{
+        width: 95%;
+    }
+    .form{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    input[type=text],
+    textarea{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .userNamePost{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .postMessage{
+        width: 100%;
+    }
 }
